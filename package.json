@@ -1,0 +1,9 @@
+{
+  "name": "newMLApp",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix crop-recommender\" \"npm start --prefix server\" \"python3 ml-model/app.py\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
